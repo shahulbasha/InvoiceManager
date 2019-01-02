@@ -1,3 +1,3 @@
 # InvoiceManager
 JavaFx 
-based project with jasper reports integeration
+based project with jasper reports integration
