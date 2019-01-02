@@ -63,6 +63,7 @@ public class ReportActivityView {
 
 
     public void ClickEvent(EventHandler<ActionEvent> eventhandler) {
+    	//on click need to navigate back to home screen . the report will be fetched and displayed separately
         fetchFromDB.setOnAction(eventhandler);
     }
 }

@@ -64,6 +64,12 @@ public class DatabaseEntryView {
     }
 
     public void entryHandler(EventHandler<ActionEvent> eventHandler) {
+    	//shahul
+    	//first validate the customer details using regex as soon as submit button is clicked
+    	//set customer info from UI to customer model
+    	//pass it to customer Info persist DAO method
+    	//If you receive response 1 from that method show successfully saved dialog
+    	//try to simulate the DB response if you face some issue
         submit.setOnAction(eventHandler);
 
     }
